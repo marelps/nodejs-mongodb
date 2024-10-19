@@ -1,0 +1,9 @@
+# Curso de Node.JS - Utilizando mongoDB
+Esse projeto é uma sequência de outro onde estou estudando a partir da playlist de vídeos do canal no youtube: [Victor Lima - Ciência da Computação](https://www.youtube.com/@GuiadoProgramador)
+
+[Link da playlist do projeto - Curso de Node.js](https://youtube.com/playlist?list=PLJ_KhUnlXUPtbtLwaxxUxHqvcNQndmI4B&si=vuzb2iwi2ZLnh2EJ)
+
+Todas as etapas desse projeto são a partir do 29º vídeo da playlist, após a introdução e a instalação do mongoDB.
+
+Também deixarei aqui anotações de estudos que achar pertinente num arquivo separado
+[Acesso para minhas anotações](anotacoes.mkd)
