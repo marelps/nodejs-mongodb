@@ -1,1 +1,12 @@
 # Anotações do projeto
+Para instalar o mongodb na máquina, na versão mais recente, é necessário instalar o mongo shell, utilizei [esse vídeo como referência para a instalação](https://www.youtube.com/watch?v=aIVOpbOgye4&t=678s). Outra coisa muito importante diferente da playlist de referência para estudo é que para inicializar o mongodb no cmd, é necessário utilizar ``mongosh`` ao invés de ``mongod`` como é citado no vídeo.
+
+### O que é mongoose
+Módulo que permite trabalhar com mongodb diretamente do node. Muito mais simples que o sequeelize (utilizado para o mysql). Extreammente utilizado nos projetos node para aplicações web
+#### Instalando mongoose
+`` npm instal --save mongoose``
+
+Prontinho!
+
+### Sobre Mongodb
+No cmd para criar um banco de dados é diretamente com o comando ``use {{ nome do banco }}``
