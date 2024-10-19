@@ -10,3 +10,19 @@ Prontinho!
 
 ### Sobre Mongodb
 No cmd para criar um banco de dados é diretamente com o comando ``use {{ nome do banco }}``
+
+- Quando definir um model dentro do mongoose é interessante utilizar o padrão Schema no final, como por exemplo no projeto ``UsuariosSchema``
+
+Sobre as seguintes linhas de código
+```javascript
+mongoose.connect("mongodb://localhost:27017/loja", {
+    useNewUrlParser:true,
+    useUnifiedTopology: true
+}).then(() => {
+```
+``useNewUrlParser`` e ``useUnifiedTopology`` foram descontinuados, o código funciona normalmente sem eles nas versões mais recentes, então ficaria da seguinte maneira:
+```javascript
+mongoose.connect("mongodb://localhost:27017/loja").then(() => {
+```
+
+
